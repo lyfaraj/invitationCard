@@ -734,7 +734,7 @@ body::after{
         gap:5px !important;
 
         position:relative !important;
-        top:80px !important;   /* move content upward/downward here */
+        top:90px !important;   /* move content upward/downward here */
         margin:0 !important;
     }
 
