@@ -736,8 +736,19 @@ body::after{
     }
 
 
-    .intro{
-        font-size:11px !important;
+    .intro {
+
+        width:85%;
+        max-width:260px;
+
+        font-size:11px;
+
+        line-height:1.35;
+
+        text-align:center;
+
+        margin:0 auto;
+
     }
 
 
@@ -756,8 +767,19 @@ body::after{
     }
 
 
-    .closing{
-        font-size:11px !important;
+    .closing {
+
+        width:85%;
+        max-width:250px;
+
+        font-size:11px;
+
+        line-height:1.35;
+
+        text-align:center;
+
+        margin:0 auto;
+
     }
 
 
