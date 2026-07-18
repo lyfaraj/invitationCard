@@ -704,45 +704,47 @@ body::after{
 
 
     /* Invitation section */
-    .invitation-section {
-
-        padding:40px 10px !important;
-
+    .invitation-section{
+        padding:20px 10px !important;
         min-height:auto !important;
-
-        overflow:hidden !important;
     }
 
 
-    /* Lace frame */
-    .lace-frame {
+    .invitation-wrapper{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
 
-        width:96vw !important;
 
-        max-width:430px !important;
+    .lace-frame{
 
-        aspect-ratio:600/850 !important;
+        width:95vw !important;
+        max-width:420px !important;
 
-        padding:35px 45px 40px !important;
+        aspect-ratio:auto !important;
+
+        min-height:720px !important;
+
+        padding:80px 40px !important;
 
         margin:20px auto !important;
 
         display:flex !important;
-
         justify-content:center !important;
-
         align-items:center !important;
 
         background-size:100% 100% !important;
+
     }
 
 
-    /* Invitation content inside frame */
-    .invitation-text {
+    .invitation-text{
 
         width:100% !important;
 
-        height:100% !important;
+        height:auto !important;
 
         display:flex !important;
 
@@ -752,116 +754,89 @@ body::after{
 
         align-items:center !important;
 
-        gap:8px !important;
+        gap:12px !important;
 
         position:relative !important;
 
-        top:65px !important;
+        top:0 !important;
 
         transform:none !important;
 
-        margin:0 !important;
     }
 
 
-    /* Call image */
-    .call {
+    .call{
 
-        width:140px !important;
+        width:130px !important;
 
         margin:0 !important;
 
-        transform:none !important;
     }
 
 
-    /* Intro */
-    .invitation-text .intro {
-
-        font-size:13px !important;
-
-        line-height:1.4 !important;
-
-        margin:0 !important;
-    }
-
-
-    /* Names */
-    .invitation-text .names {
-
-        font-size:27px !important;
-
-        line-height:1.2 !important;
-
-        margin:0 !important;
-    }
-
-
-    /* Date */
-    .date-text {
+    .invitation-text .intro{
 
         font-size:13px !important;
 
         margin:0 !important;
+
     }
 
 
-    /* Details */
-    .details-grid {
+    .invitation-text .names{
+
+        font-size:26px !important;
+
+        margin:0 !important;
+
+    }
+
+
+    .date-text{
+
+        font-size:13px !important;
+
+        margin:0 !important;
+
+    }
+
+
+    .details-grid{
 
         width:100% !important;
 
         display:flex !important;
 
-        justify-content:space-around !important;
-
-        align-items:center !important;
+        justify-content:space-between !important;
 
         gap:5px !important;
 
         margin:0 !important;
+
     }
 
 
-    .detail-item {
+    .detail-item i{
 
-        gap:4px !important;
+        font-size:15px !important;
+
     }
 
 
-    .detail-item i {
-
-        font-size:16px !important;
-    }
-
-
-    .detail-item span {
+    .detail-item span{
 
         font-size:10px !important;
 
-        line-height:1.2 !important;
     }
 
 
-    /* Closing */
-    .invitation-text .closing {
+    .closing{
 
         font-size:12px !important;
 
-        line-height:1.3 !important;
-
         margin:0 !important;
+
     }
-
-
-    /* Note */
-    .invitation-text .note {
-
-        font-size:10px !important;
-
-        margin:0 !important;
-    }
-
 
 
     /* ===============================
