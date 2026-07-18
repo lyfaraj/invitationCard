@@ -722,8 +722,7 @@ body::after{
         align-items:center !important;
 
         gap:8px !important;
-
-        transform:none !important;
+        transform:translateY(40px) !important;
         margin:0 !important;
         top:auto !important;
     }
@@ -732,6 +731,7 @@ body::after{
     .call{
         width:140px !important;
         margin:0 !important;
+        transform:translateY(20px);
     }
 
 
