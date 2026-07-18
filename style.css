@@ -696,218 +696,357 @@ body::after{
     }
 
 }
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+
+@media (max-width:768px) {
 
 
-@media (max-width: 768px) {
+    /* Invitation section */
+    .invitation-section {
 
-.invitation-section{
-    padding:40px 10px !important;
-}
+        padding:40px 10px !important;
 
-    .lace-frame{
-        display:flex !important;
-        justify-content:center !important;
-        align-items:center !important;
-        padding:45px 35px !important;
+        min-height:auto !important;
+
+        overflow:hidden !important;
     }
 
 
-    .invitation-text{
+    /* Lace frame */
+    .lace-frame {
+
+        width:96vw !important;
+
+        max-width:430px !important;
+
+        aspect-ratio:600/850 !important;
+
+        padding:35px 45px 40px !important;
+
+        margin:20px auto !important;
+
+        display:flex !important;
+
+        justify-content:center !important;
+
+        align-items:center !important;
+
+        background-size:100% 100% !important;
+    }
+
+
+    /* Invitation content inside frame */
+    .invitation-text {
+
         width:100% !important;
+
         height:100% !important;
 
         display:flex !important;
+
         flex-direction:column !important;
+
         justify-content:center !important;
+
         align-items:center !important;
 
         gap:8px !important;
-        transform:translateY(40px) !important;
+
+        position:relative !important;
+
+        top:65px !important;
+
+        transform:none !important;
+
         margin:0 !important;
-        top:auto !important;
     }
 
 
-    .call{
+    /* Call image */
+    .call {
+
         width:140px !important;
+
         margin:0 !important;
-        transform:translateY(20px);
+
+        transform:none !important;
     }
 
 
-    .invitation-text .intro{
-        margin:0 !important;
+    /* Intro */
+    .invitation-text .intro {
+
         font-size:13px !important;
+
         line-height:1.4 !important;
+
+        margin:0 !important;
     }
 
 
-    .invitation-text .names{
-        margin:0 !important;
+    /* Names */
+    .invitation-text .names {
+
         font-size:27px !important;
+
         line-height:1.2 !important;
+
+        margin:0 !important;
     }
 
 
-    .date-text{
-        margin:0 !important;
+    /* Date */
+    .date-text {
+
         font-size:13px !important;
-    }
 
-
-    .details-grid{
         margin:0 !important;
-        gap:12px !important;
     }
 
 
-    .detail-item{
+    /* Details */
+    .details-grid {
+
+        width:100% !important;
+
+        display:flex !important;
+
+        justify-content:space-around !important;
+
+        align-items:center !important;
+
+        gap:5px !important;
+
+        margin:0 !important;
+    }
+
+
+    .detail-item {
+
         gap:4px !important;
     }
 
 
-    .detail-item i{
+    .detail-item i {
+
         font-size:16px !important;
     }
 
 
-    .detail-item span{
+    .detail-item span {
+
         font-size:10px !important;
+
         line-height:1.2 !important;
     }
 
 
-    .invitation-text .closing{
-        margin:0 !important;
+    /* Closing */
+    .invitation-text .closing {
+
         font-size:12px !important;
+
         line-height:1.3 !important;
-    }
 
-
-    .invitation-text .note{
         margin:0 !important;
+    }
+
+
+    /* Note */
+    .invitation-text .note {
+
         font-size:10px !important;
+
+        margin:0 !important;
     }
 
 
-    /* Countdown */
+
+    /* ===============================
+       Countdown
+    ================================ */
+
+
     .countdown {
-        gap: 10px;
+
+        gap:10px;
     }
+
 
     .time-box {
-        width: 70px;
-        height: 80px;
-        border-radius: 15px;
+
+        width:70px;
+
+        height:80px;
+
+        border-radius:15px;
     }
+
 
     .time-box span {
-        font-size: 22px;
+
+        font-size:22px;
     }
+
 
     .time-box small {
-        font-size: 11px;
+
+        font-size:11px;
     }
 
-    /* Decorative */
+
+
+    /* ===============================
+       Hero collage
+    ================================ */
+
+
     .hero-collage {
-        transform: scale(.8);
+
+        transform:scale(.8);
+
     }
 
-    .call {
-        width: 180px;
-    }
 
-    .center-text p {
-        font-size: 17px;
-        padding: 0 10px;
-    }
+
+    /* ===============================
+       Combined section
+    ================================ */
+
 
     .combined-section {
-        padding: 40px 10px;
-        min-height: 100svh;
+
+        padding:40px 10px;
+
+        min-height:100svh;
     }
+
 
     .composition-wrapper {
-        position: relative;
-        width: 100%;
-        max-width: 420px;
-        height: 600px;
+
+        position:relative;
+
+        width:100%;
+
+        max-width:420px;
+
+        height:600px;
     }
 
 
-    /* Text page in the center */
+
     .center-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        
-        width: 75%;
-        min-height: 330px;
-       
 
-        z-index: 5;
+        position:absolute;
+
+        top:50%;
+
+        left:50%;
+
+        transform:translate(-50%,-50%);
+
+        width:75%;
+
+        min-height:330px;
+
+        z-index:5;
     }
 
+
+
+    .center-text p {
+
+        font-size:20px;
+
+        line-height:1.8;
+
+        margin-top:-70px;
+    }
+
+
+
+    .center-text h3 {
+
+        font-size:25px;
+
+        line-height:1.8;
+
+        margin-top:20px;
+
+        margin-left:16px;
+    }
+
+
+
+    /* Decorative elements */
 
     .decorative-elements {
-        position: absolute;
-        inset: 0;
-        z-index: 9;
+
+        position:absolute;
+
+        inset:0;
+
+        z-index:9;
     }
+
 
 
     .element {
-        position: absolute !important;
+
+        position:absolute !important;
     }
 
 
-    /* Left top photo glued to page */
+
     .p1 {
-        width: 100px;
-        top: 350px;
-        left: 0;
-        transform: rotate(-12deg);
+
+        width:100px;
+
+        top:350px;
+
+        left:0;
+
+        transform:rotate(-12deg);
     }
 
 
-    /* Right side swan decoration */
+
     .swan {
-        width: 90px;
-        top: 180px;
-        right: 0;
-        transform: rotate(12deg);
+
+        width:90px;
+
+        top:180px;
+
+        right:0;
+
+        transform:rotate(12deg);
     }
 
 
-    /* Bottom photo */
+
     .p2 {
-        width: 120px;
-        bottom: 90px;
-        right: 20px;
-        transform: rotate(10deg);
+
+        width:120px;
+
+        bottom:90px;
+
+        right:20px;
+
+        transform:rotate(10deg);
     }
+
 
 
     .call-image {
-        width: 230px;
-        margin-top: 0;
-        margin-right: 16px;
+
+        width:230px;
+
+        margin-top:0;
+
+        margin-right:16px;
     }
 
-
-    .center-text p {
-        font-size: 20px;
-        line-height: 1.8;
-        margin-top: -70px;
-    }
-
-    .center-text h3 {
-        font-size: 25px;
-        line-height: 1.8;
-        margin-top: 20px;
-        margin-left: 16px;
-    }
 }
 
