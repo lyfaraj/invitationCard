@@ -696,188 +696,273 @@ body::after{
     }
 
 }
-/* ===============================
-   MOBILE RESPONSIVE
-================================ */
+/* =========================================
+   MOBILE VERSION
+========================================= */
 
-@media (max-width:768px) {
+@media (max-width:768px){
 
 
-    /* Invitation section */
+    /* ===============================
+       INVITATION SECTION
+    =============================== */
+
     .invitation-section{
-        padding:20px 10px !important;
+
+        padding:30px 10px !important;
+
         min-height:auto !important;
+
+        overflow:hidden !important;
+
     }
 
 
     .invitation-wrapper{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-
-
-.lace-frame{
-
-    width:95vw !important;
-    max-width:420px !important;
-
-    aspect-ratio:auto !important;
-
-    min-height:620px !important;
-
-    padding:40px 40px !important;
-
-    margin:20px auto !important;
-
-    display:flex !important;
-    justify-content:center !important;
-    align-items:center !important;
-
-    background-size:100% 100% !important;
-
-}
-
-
-    .invitation-text{
 
         width:100% !important;
 
-        height:auto !important;
-
         display:flex !important;
-
-        flex-direction:column !important;
 
         justify-content:center !important;
 
         align-items:center !important;
 
-        gap:12px !important;
-
-        position:relative !important;
-
-        top:0 !important;
-    transform:translateY(-30px) !important;
-
     }
 
 
-    .call{
 
-        width:130px !important;
+    .lace-frame{
 
-        margin:0 !important;
+        width:95vw !important;
 
-    }
+        max-width:420px !important;
 
+        aspect-ratio:auto !important;
 
-    .invitation-text .intro{
+        min-height:650px !important;
 
-        font-size:13px !important;
+        padding:40px 35px !important;
 
-        margin:0 !important;
-
-    }
-
-
-    .invitation-text .names{
-
-        font-size:26px !important;
-
-        margin:0 !important;
-
-    }
-
-
-    .date-text{
-
-        font-size:13px !important;
-
-        margin:0 !important;
-
-    }
-
-
-    .details-grid{
-
-        width:100% !important;
+        margin:20px auto !important;
 
         display:flex !important;
 
-        justify-content:space-between !important;
+        justify-content:center !important;
 
-        gap:5px !important;
+        align-items:center !important;
+
+        background-size:100% 100% !important;
+
+    }
+
+
+
+    .lace-frame .invitation-text{
+
+
+        width:100% !important;
+
+        height:auto !important;
+
+
+        display:flex !important;
+
+        flex-direction:column !important;
+
+
+        justify-content:center !important;
+
+        align-items:center !important;
+
+
+        gap:10px !important;
+
+
+        position:relative !important;
+
+
+        /* MOVE WHOLE CONTENT */
+        top:-25px !important;
+
+
+        transform:none !important;
+
 
         margin:0 !important;
 
     }
 
 
-    .detail-item i{
+
+    .lace-frame .call{
+
+        width:130px !important;
+
+        height:auto !important;
+
+        margin:0 !important;
+
+        transform:none !important;
+
+    }
+
+
+
+    .lace-frame .intro{
+
+        font-size:13px !important;
+
+        line-height:1.4 !important;
+
+        margin:0 !important;
+
+    }
+
+
+
+    .lace-frame .names{
+
+        font-size:26px !important;
+
+        line-height:1.2 !important;
+
+        margin:0 !important;
+
+    }
+
+
+
+    .lace-frame .date-text{
+
+        font-size:13px !important;
+
+        margin:0 !important;
+
+    }
+
+
+
+    .lace-frame .details-grid{
+
+
+        width:100% !important;
+
+
+        display:flex !important;
+
+
+        justify-content:space-around !important;
+
+
+        align-items:center !important;
+
+
+        gap:5px !important;
+
+
+        margin:0 !important;
+
+    }
+
+
+
+    .lace-frame .detail-item{
+
+        gap:4px !important;
+
+    }
+
+
+
+    .lace-frame .detail-item i{
 
         font-size:15px !important;
 
     }
 
 
-    .detail-item span{
+
+    .lace-frame .detail-item span{
 
         font-size:10px !important;
+
+        line-height:1.2 !important;
 
     }
 
 
-    .closing{
+
+    .lace-frame .closing{
 
         font-size:12px !important;
+
+        line-height:1.3 !important;
 
         margin:0 !important;
 
     }
 
 
-    /* ===============================
-       Countdown
-    ================================ */
 
+    .lace-frame .note{
 
-    .countdown {
+        font-size:10px !important;
 
-        gap:10px;
+        margin:0 !important;
+
     }
 
 
-    .time-box {
-
-        width:70px;
-
-        height:80px;
-
-        border-radius:15px;
-    }
-
-
-    .time-box span {
-
-        font-size:22px;
-    }
-
-
-    .time-box small {
-
-        font-size:11px;
-    }
 
 
 
     /* ===============================
-       Hero collage
-    ================================ */
+       COUNTDOWN
+    =============================== */
 
 
-    .hero-collage {
+    .countdown{
+
+        gap:10px !important;
+
+    }
+
+
+    .time-box{
+
+        width:70px !important;
+
+        height:80px !important;
+
+        border-radius:15px !important;
+
+    }
+
+
+    .time-box span{
+
+        font-size:22px !important;
+
+    }
+
+
+    .time-box small{
+
+        font-size:11px !important;
+
+    }
+
+
+
+
+
+    /* ===============================
+       HERO COLLAGE
+    =============================== */
+
+
+    .hero-collage{
 
         transform:scale(.8);
 
@@ -885,142 +970,157 @@ body::after{
 
 
 
+
+
     /* ===============================
-       Combined section
-    ================================ */
+       COMBINED SECTION
+    =============================== */
 
 
-    .combined-section {
+    .combined-section{
 
-        padding:40px 10px;
+        padding:40px 10px !important;
 
-        min-height:100svh;
-    }
+        min-height:100svh !important;
 
-
-    .composition-wrapper {
-
-        position:relative;
-
-        width:100%;
-
-        max-width:420px;
-
-        height:600px;
     }
 
 
 
-    .center-text {
+    .composition-wrapper{
 
-        position:absolute;
+        width:100% !important;
 
-        top:50%;
+        max-width:420px !important;
 
-        left:50%;
+        height:600px !important;
 
-        transform:translate(-50%,-50%);
+        position:relative !important;
 
-        width:75%;
-
-        min-height:330px;
-
-        z-index:5;
     }
 
 
 
-    .center-text p {
-
-        font-size:20px;
-
-        line-height:1.8;
-
-        margin-top:-70px;
-    }
-
-
-
-    .center-text h3 {
-
-        font-size:25px;
-
-        line-height:1.8;
-
-        margin-top:20px;
-
-        margin-left:16px;
-    }
-
-
-
-    /* Decorative elements */
-
-    .decorative-elements {
-
-        position:absolute;
-
-        inset:0;
-
-        z-index:9;
-    }
-
-
-
-    .element {
+    .center-text{
 
         position:absolute !important;
+
+        top:50% !important;
+
+        left:50% !important;
+
+        transform:translate(-50%,-50%) !important;
+
+
+        width:75% !important;
+
+        min-height:330px !important;
+
+
+        z-index:5 !important;
+
     }
 
 
 
-    .p1 {
+    .center-text p{
 
-        width:100px;
+        font-size:20px !important;
 
-        top:350px;
+        line-height:1.8 !important;
 
-        left:0;
+        margin-top:-70px !important;
 
-        transform:rotate(-12deg);
     }
 
 
 
-    .swan {
+    .center-text h3{
 
-        width:90px;
+        font-size:25px !important;
 
-        top:180px;
+        line-height:1.8 !important;
 
-        right:0;
+        margin-top:20px !important;
 
-        transform:rotate(12deg);
     }
 
 
 
-    .p2 {
 
-        width:120px;
+    /* Decorations */
 
-        bottom:90px;
 
-        right:20px;
+    .decorative-elements{
 
-        transform:rotate(10deg);
+        position:absolute !important;
+
+        inset:0 !important;
+
+        z-index:9 !important;
+
     }
 
 
 
-    .call-image {
+    .element{
 
-        width:230px;
+        position:absolute !important;
 
-        margin-top:0;
-
-        margin-right:16px;
     }
+
+
+
+    .p1{
+
+        width:100px !important;
+
+        top:350px !important;
+
+        left:0 !important;
+
+        transform:rotate(-12deg) !important;
+
+    }
+
+
+
+    .swan{
+
+        width:90px !important;
+
+        top:180px !important;
+
+        right:0 !important;
+
+        transform:rotate(12deg) !important;
+
+    }
+
+
+
+    .p2{
+
+        width:120px !important;
+
+        bottom:90px !important;
+
+        right:20px !important;
+
+        transform:rotate(10deg) !important;
+
+    }
+
+
+
+    .call-image{
+
+        width:230px !important;
+
+        margin-right:16px !important;
+
+    }
+
 
 }
 
