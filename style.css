@@ -702,69 +702,42 @@ body::after{
 .invitation-section{
     padding:40px 10px !important;
 }
-    .lace-frame{
-        width:96vw !important;
-        max-width:430px !important;
-
-        background-size:100% 100% !important;
-
-        padding:42px 52px 45px !important;
-    }
+.lace-frame{
+    width:96vw !important;
+    max-width:430px !important;
+    background-size:100% 100% !important;
+    padding:35px 52px 40px !important;
+}
 
 
-    .invitation-text{
-        gap:4px !important;
-    }
+.invitation-text{
+    justify-content:flex-start !important;
+    gap:3px !important;
+}
 
 
-    .call{
-        width:140px !important;
-        margin-top:-25px !important;
-    }
+.call{
+    width:140px !important;
+    margin-top:-15px !important;
+}
 
 
-    .intro{
-        width:90%;
-        max-width:280px;
-
-        font-size:12px !important;
-        line-height:1.45;
-
-        margin:0 auto;
-    }
+.names{
+    font-size:32px !important;
+    margin:2px 0 !important;
+    line-height:1.1;
+}
 
 
-    .invitation-text .names{
-        font-size:34px !important;
-        margin:8px 0 !important;
-    }
+.details-grid{
+    gap:6px !important;
+    margin:0 !important;
+}
 
 
-    .hero-text span{
-        font-size:22px !important;
-    }
-
-
-    .name-img{
-        height:50px !important;
-    }
-
-
-    .date-text{
-        font-size:12px !important;
-        margin:2px 0 !important;
-    }
-
-
-    .details-grid{
-        gap:10px !important;
-        margin:3px 0 !important;
-    }
-
-
-    .detail-item i{
-        font-size:18px !important;
-    }
+.detail-item i{
+    font-size:16px !important;
+}
 
 
     .detail-item span{
