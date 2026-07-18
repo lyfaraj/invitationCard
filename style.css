@@ -708,85 +708,79 @@ body::after{
 
         background-size:100% 100% !important;
 
-        padding:45px 50px 50px !important;
+        padding:42px 52px 45px !important;
     }
 
-.call{
-    width:120px !important;
-}
+
     .invitation-text{
-        width:100% !important;
-        height:100% !important;
-        transform:none;
-        gap:6px !important;
-    }
-
-
-    .invitation-text > *{
-        max-width:100% !important;
-    }
-
-
-    .hero-text{
-        flex-wrap:nowrap !important;
-        transform:scale(.85);
-    }
-
-
-    .hero-text span{
-        font-size:20px !important;
-    }
-
-
-    .name-img{
-        height:35px !important;
-    }
-
-
-    .intro {
-
-        width:85%;
-        max-width:260px;
-
-        font-size:11px;
-
-        line-height:1.35;
-
-        text-align:center;
-
-        margin:0 auto;
-
-    }
-
-
-    .date-text{
-        font-size:11px !important;
-    }
-
-
-    .details-grid{
         gap:4px !important;
     }
 
 
-    .detail-item span{
-        font-size:9px !important;
+    .call{
+        width:140px !important;
+        margin-top:-25px !important;
     }
 
 
-    .closing {
+    .intro{
+        width:90%;
+        max-width:280px;
 
-        width:85%;
-        max-width:250px;
-
-        font-size:11px;
-
-        line-height:1.35;
-
-        text-align:center;
+        font-size:12px !important;
+        line-height:1.45;
 
         margin:0 auto;
+    }
 
+
+    .invitation-text .names{
+        font-size:34px !important;
+        margin:8px 0 !important;
+    }
+
+
+    .hero-text span{
+        font-size:22px !important;
+    }
+
+
+    .name-img{
+        height:40px !important;
+    }
+
+
+    .date-text{
+        font-size:12px !important;
+        margin:5px 0 !important;
+    }
+
+
+    .details-grid{
+        gap:8px !important;
+        margin:8px 0 !important;
+    }
+
+
+    .detail-item i{
+        font-size:18px !important;
+    }
+
+
+    .detail-item span{
+        font-size:10px !important;
+        line-height:1.3;
+    }
+
+
+    .closing{
+        width:90%;
+        max-width:270px;
+
+        font-size:12px !important;
+        line-height:1.4;
+
+        margin:5px auto 0 !important;
     }
 
 
