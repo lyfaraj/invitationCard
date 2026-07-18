@@ -714,131 +714,84 @@ body::after{
 
 
     .lace-frame{
-
         width:95vw !important;
         max-width:430px !important;
-
         aspect-ratio:600/850 !important;
-
         padding:0 !important;
-
         display:flex !important;
-
         justify-content:center !important;
-
-        align-items:center !important;
-
+        align-items:flex-start !important;
     }
 
 
     .lace-frame .invitation-text{
-
         width:80% !important;
-
         height:auto !important;
-
         display:flex !important;
-
         flex-direction:column !important;
-
-        justify-content:center !important;
-
+        justify-content:flex-start !important;
         align-items:center !important;
-
         gap:5px !important;
 
         position:relative !important;
-
-        top:-55px !important;
-
+        top:80px !important;   /* move content upward/downward here */
         margin:0 !important;
-
     }
 
 
     .lace-frame .call{
-
         width:120px !important;
-
-        margin:0 !important;
-
+        margin:-40px 0 0 !important;
     }
 
 
     .lace-frame .intro{
-
         font-size:12px !important;
-
         line-height:1.4 !important;
-
         margin:0 !important;
-
     }
 
 
     .lace-frame .hero-text{
-
         gap:5px !important;
-
     }
 
 
     .lace-frame .name-img{
-
         height:55px !important;
-
-        width:auto !important;
-
     }
 
 
     .lace-frame .hero-text span{
-
         font-size:22px !important;
-
     }
 
 
     .lace-frame .date-text{
-
         font-size:12px !important;
-
         margin:0 !important;
-
     }
 
 
     .lace-frame .details-grid{
-
         gap:8px !important;
-
         margin:0 !important;
-
     }
 
 
     .lace-frame .detail-item i{
-
         font-size:14px !important;
-
     }
 
 
     .lace-frame .detail-item span{
-
         font-size:9px !important;
-
-        line-height:1.2 !important;
-
     }
 
 
     .lace-frame .closing{
-
         font-size:11px !important;
-
         margin:0 !important;
-
     }
 
 
