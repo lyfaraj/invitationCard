@@ -699,14 +699,21 @@ body::after{
 
 
 @media (max-width: 768px) {
-
-.lace-frame{
-    width:96vw !important;
-    max-width:420px !important;
-    padding:50px 55px 55px !important;
+.invitation-section{
+    padding:40px 10px !important;
 }
+    .lace-frame{
+        width:96vw !important;
+        max-width:430px !important;
 
+        background-size:100% 100% !important;
 
+        padding:45px 50px 50px !important;
+    }
+
+.call{
+    width:120px !important;
+}
     .invitation-text{
         width:100% !important;
         height:100% !important;
